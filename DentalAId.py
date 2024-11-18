@@ -8,8 +8,8 @@ SENHA_OPEN_AI = os.getenv("SENHA_OPEN_AI")
 openai.api_key = SENHA_OPEN_AI
 
 # URL da imagem do logo no repositório do GitHub
-logo_url = "https://github.com/cristianomaraujo/dentalaid/blob/main/Capa.jpg?raw=true"
-logo_url3 = "https://github.com/cristianomaraujo/dentalaid/blob/main/Capa 2.jpg?raw=true"
+logo_url = "https://github.com/cristianomaraujo/dental-AIdTCC/blob/main/Capa.jpg?raw=true"
+logo_url3 = "https://github.com/cristianomaraujo/dental-AIdTCC/blob/main/Capa 2.jpg?raw=true"
 
 # Exibindo a imagem de logo
 st.sidebar.image(logo_url3, use_column_width=True)
